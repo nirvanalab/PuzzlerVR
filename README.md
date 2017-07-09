@@ -60,6 +60,7 @@ One pressing the start, the user is taken to the dungeon where the game begins. 
 If the user fails to match the sequence , there will be a fail sound played and a new game begins. Once the user successfully matches the sequence he will be moved from the dungeon to the congrats panel where the user has the option to restart the experience.
 
 **Video**
+Click the image below to watch the video
 [![Puzzler](https://github.com/nirvanalab/PuzzlerVR/blob/master/Documentation/Puzzler%20Screenshot%201.png)](http://www.youtube.com/watch?v=IRdImFMuYW8 "Puzzler")
 
 
