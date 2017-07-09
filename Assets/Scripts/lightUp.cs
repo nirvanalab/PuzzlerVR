@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class lightUp : MonoBehaviour {
-	/*public Material lightUpMaterial;
+	public Material lightUpMaterial;
 	public GameObject gameLogic;
 	private Material defaultMaterial;
 
@@ -11,7 +11,7 @@ public class lightUp : MonoBehaviour {
 		defaultMaterial = this.GetComponent<MeshRenderer> ().material; //Save our initial material as the default
 		//this.GetComponentInChildren<ParticleSystem>().enableEmission = false; //Start without emitting particles
 
-		gameLogic = GameObject.Find ("gameLogic");
+		gameLogic = GameObject.Find ("GameLogic");
 	}
 	
 	// Update is called once per frame
@@ -33,8 +33,8 @@ public class lightUp : MonoBehaviour {
 
 	}
 	public void playerSelection() {
-		//GameLogic.GetComponent<gameLogic>().playerSelection(this.gameObject);
-		//this.GetComponent<GvrAudioSource>().Play();
+		gameLogic.GetComponent<GameLogic>().playerSelection(this.gameObject);
+		this.GetComponent<GvrAudioSource>().Play();
 	}
 	public void aestheticReset() {
 		this.GetComponent<MeshRenderer>().material = defaultMaterial; //Revert to the default material
@@ -52,5 +52,5 @@ public class lightUp : MonoBehaviour {
 		patternLightUp ();
 		yield return new WaitForSeconds(duration-.1f);
 		aestheticReset ();
-	}*/
+	}
 }
