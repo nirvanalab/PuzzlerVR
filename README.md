@@ -1,4 +1,6 @@
 # PuzzlerVR
+**Developed by- Vidhur Voora**
+
 **Puzzler VR** is part of the Udacity VR design course, which explains major aspects of the design and usability considerations
 which need to be made while creating a VR experience. This documents explains the process followed in building this application.
 
